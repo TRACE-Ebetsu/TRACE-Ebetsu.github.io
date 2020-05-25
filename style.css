@@ -1,0 +1,144 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+header{
+  height: 65px;
+    width: 1000px;
+    background-color: rgba(196, 196, 196, 0.3);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.header-left{
+  float:left;
+  padding-top: 3px;
+  padding-left: 30px;
+}
+.header-left2{
+  float: left;
+  padding-top: 8px;
+  margin-left: 30px;
+}
+.header-left2 a{
+  padding-right: 15px;
+}
+.header-rigth{
+  float: right;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.header-rigth a{
+  float: left;
+  line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    border-right: 2px solid rgb(255, 255, 255, 0.3);
+}
+.header-rigth :hover{
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+
+.top{
+  width: 1000px;
+  height: 658px;
+  margin-bottom: 30px;
+  border-bottom: 3px solid rgb(150, 150, 150);
+  background-image: url(画像/top-photo.JPG);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.top-container1 {
+  opacity: 0.5;
+  padding-top: 540px;
+  padding-left: 400px;
+}
+.top-container1 h1{
+  font-size: 48px;
+  letter-spacing: 3px;
+}
+.top-container1 p{
+  font-size: 20px;
+  letter-spacing: 10px;
+}
+
+/* hr{
+  width: 1000px;
+  border-width: 5px 0px 0px 0px;
+  border-style: solid;
+  border-color: #454545;
+} */
+
+.second{
+  width: 1000px;
+  height: 400px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #d7d7d7;
+  border-bottom: 3px solid rgb(150, 150, 150);
+  text-align: center;
+}
+.box{
+  float: left;
+  width: 33%;
+  border-left: 1px solid rgb(172, 171, 171);
+  border-right: px solid rgb(172, 171, 171);
+  height: 400px;
+
+}
+.box h1{
+  padding-top: 15px;
+  letter-spacing: 10px;
+  color: #3d3d3d;
+  font-family: "Courier";
+  font-size: 40px;
+}
+.box img{
+  padding-top: 15px;
+  letter-spacing: 10px;
+}
+.box p{
+  width: 310px;
+  padding-top: 20px;
+  padding-right: 5px;
+  padding-left: 5px;
+  color: #292929;
+}
+
+
+footer
+{
+  width: 1000px;
+  height: 110px;
+  margin-top: 30px;
+  background-color: #e9e9e9;
+  text-align: center;
+}
+/* .footer-snss a{
+  padding-left: 20px;
+  padding-right: 20px;
+} */
+.footer-container p{
+  color: #a2a2a2;
+}
